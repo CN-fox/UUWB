@@ -18,6 +18,7 @@ public:
     void set_remind_in(int);
     QString getUid();
     QString gettoken();
+    QString getExpiresIn();
     void login(QMainWindow *);
 
 protected:

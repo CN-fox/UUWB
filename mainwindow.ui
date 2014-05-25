@@ -52,7 +52,6 @@ font: 75 14pt &quot;Ubuntu Mono&quot;;</string>
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
   <action name="actionAbout">
    <property name="text">
     <string>About</string>

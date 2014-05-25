@@ -25,7 +25,8 @@ SOURCES += main.cpp\
     sdk/api/WeiBoAPI.cpp \
     sdk/WeiBoAction.cpp \
     sdk/api/UserAPI.cpp \
-    sdk/WeiBo.cpp
+    sdk/WeiBo.cpp \
+    userpage.cpp
 
 HEADERS  += mainwindow.h \
     sdk/WeiBoAction.h \
@@ -35,7 +36,8 @@ HEADERS  += mainwindow.h \
     sdk/api/WeiBoAPI.h \
     sdk/api/UserAPI.h \
     sdk/WeiBo.h \
-    sdk/keep/AccessTokenKeeper.h
+    sdk/keep/AccessTokenKeeper.h \
+    userpage.h
 
 FORMS    += mainwindow.ui \
-    mywidget.ui
+    userpage.ui
