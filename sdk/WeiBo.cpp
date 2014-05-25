@@ -35,6 +35,11 @@ void WeiBo::set_remind_in(int remind_in)
     this->remind_in = remind_in;
 }
 
+QString WeiBo::getExpiresIn()
+{
+    return QString("%1").arg(expires_in);
+}
+
 void WeiBo::login(QMainWindow *window)
 {
     QUrl url = WeiBoAction::getUrl(WeiBoAction::LOGIN);
